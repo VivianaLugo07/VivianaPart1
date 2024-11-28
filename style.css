@@ -1,0 +1,82 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d9e9ff;
+}
+
+h1 {
+    margin: 30px;
+}
+
+.navegacion {
+    box-sizing: border-box;
+    background-color: #468189;
+}
+
+.datos-importantes {
+    text-align: center;
+}
+
+.imagenes-redes {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    padding: 0.2rem;
+}
+
+#inicial {
+    width: 90px;
+    height: 90px;
+}
+
+#git-image,
+#linkelin-image,
+#instagram-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 1%;
+    transition: 250ms;
+}
+
+#git-image:hover,
+#linkelin-image:hover,
+#instagram-image:hover {
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+
+.mini-presentacion {
+    text-align: center;
+    margin: 9%;
+    padding: 1.4rem;
+    border: 20px solid white;
+    background-color: white;
+}
+
+#mifoto {
+    border-radius: 10%;
+    width: 20%;
+    height: auto;
+}
+
+.container1 {
+    display: inline-block;
+    padding: 0.8rem;
+}
+
+.foto1 {
+    width: 320px;
+    height: 300px;
+    border: 20px solid #468189;
+    transition: 250ms;
+}
+
+.foto1:hover {
+    border-radius: 20px;
+    transform: scale(1.1);
+}
