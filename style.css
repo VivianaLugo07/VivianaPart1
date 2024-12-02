@@ -13,8 +13,8 @@ h1 {
 }
 
 .navegacion {
-    box-sizing: border-box;
     background-color: #468189;
+    display: flex;
 }
 
 .datos-importantes {
