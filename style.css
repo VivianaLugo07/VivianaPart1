@@ -5,28 +5,97 @@
 }
 
 body {
-    background-color: #d9e9ff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,23,52,1) 35%, rgba(45,89,98,1) 100%);
+    color: white;
 }
+/*header*/
+
+header{
+    display: flex;
+    background-color: #468189;
+    color: white;
+    padding: 1rem 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-image-container{
+    width: 10%;
+    background-color: white;
+}
+
+.header-image-container img{
+    width: 100%;
+}
+
+header form{
+    width: 35%;
+}
+
+header form input{
+    width: 45%;
+}
+
+header form input{
+    width: 70%;
+    padding: 1rem 2rem;
+    border: none;
+    border: 1px solid #468189;
+    border-radius: 100vw 0 0 100vw;
+    font-style: italic;
+
+}
+
+/*cuando se pone el cursor arriba del form*/
+header form input:focus{
+    border: 1px solid #3a788098;
+    outline: none;
+    transition: 200ms;
+}
+
+header form button{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 0 100vw 100vw 0;
+    padding: 0.5rem 1rem;
+    transition: 200ms;
+    font-style: italic;
+    font-weight: 500;
+}
+
+header form button:hover{
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: #345559a5;
+    color: white;
+}
+/*lista que esta en el header */
+header ul{
+    display: flex;
+    gap: 2rem; /*espaciado entre los elementos*/
+}
+
+header ul li{
+    transition: 200ms;
+    font-style: italic;
+}
+
+header ul li:hover{
+    transform: scale(1.2);
+}
+
 
 h1 {
     margin: 30px;
-}
-
-.navegacion {
-    background-color: #468189;
-    display: flex;
 }
 
 .datos-importantes {
     text-align: center;
 }
 
-.imagenes-redes {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    border-radius: 5%;
-    padding: 0.2rem;
+h3{
+    color: black;
 }
 
 #inicial {
@@ -34,21 +103,6 @@ h1 {
     height: 90px;
 }
 
-#git-image,
-#linkelin-image,
-#instagram-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 1%;
-    transition: 250ms;
-}
-
-#git-image:hover,
-#linkelin-image:hover,
-#instagram-image:hover {
-    border-radius: 20px;
-    transform: scale(1.1);
-}
 
 .mini-presentacion {
     text-align: center;
@@ -74,9 +128,61 @@ h1 {
     height: 300px;
     border: 20px solid #468189;
     transition: 250ms;
+    
 }
 
 .foto1:hover {
     border-radius: 20px;
     transform: scale(1.1);
 }
+
+
+footer{
+    background-color: #468189;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+.footer-logo-container{
+    width: 5rem;
+    background-color: white;
+}
+
+.footer-logo-container img{
+    width: 100%;
+}
+
+.links-containers{
+    display: flex;
+    font-weight: bold;
+    gap: 3.5rem;
+}
+
+.links-containers li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logos-container{
+    display: flex;
+    gap: 3.5rem;
+}
+
+.logos-container li{
+    width: 4rem;
+    padding: 2rem;
+}
+
+.logos-container img{
+    filter: invert(100);
+    width: 100%;
+    transition: 200ms;
+}
+
+.logos-container img:hover{
+    transform: scale(1.3);
+}
+
