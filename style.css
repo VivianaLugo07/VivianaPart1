@@ -103,7 +103,7 @@ h3{
     height: 90px;
 }
 
-
+/*
 .mini-presentacion {
     text-align: center;
     margin: 9%;
@@ -116,7 +116,65 @@ h3{
     border-radius: 10%;
     width: 20%;
     height: auto;
+}*/
+
+/*conteneror de info personal*/
+.genders-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    gap: 2rem;
 }
+
+.gender-card{
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: 2ms;
+    gap: 3rem;
+}
+
+.gender-card:hover{
+    background-color: rgba(0, 0, 0, 0.412);
+    transform: translateY(-5px);
+    color: white;
+}
+
+.info-gender-card{
+    display: flex;
+    gap: 2rem;
+    padding:2rem;
+    align-items: center;
+}
+
+.icon-gender-container{
+    width: 35%;
+}
+
+.icon-gender-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+.icon-gender-container{
+    width: 4.5rem;
+    align-self: flex-end;
+}
+
+.icon-gender-container img{
+    width: 100%;
+    filter: invert(100);
+}
+
 
 .container1 {
     display: inline-block;
